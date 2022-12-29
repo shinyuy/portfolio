@@ -1,0 +1,25 @@
+.about-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.about-content h1 {
+  font-size: 36px;
+}
+
+.about-content p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}

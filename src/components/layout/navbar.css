@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 95%; /* Full width */
+}
+
+.navbar-container ul {
+  display: flex;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-container li {
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 50px;
+  cursor: pointer;
+}
