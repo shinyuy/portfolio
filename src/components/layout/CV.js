@@ -4,7 +4,7 @@ import "./cv.css";
 const CV = ({ theme }) => {
   return (
     <div className="cv-container">
-      <a href="../../images/shinyuy marcel.pdf" download>
+      <a href="../../images/shinyuy.pdf" download>
         Click to download CV
       </a>
       <img src={theme === "light" ? CV1 : CV1} />
