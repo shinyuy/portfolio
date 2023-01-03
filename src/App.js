@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Element } from "react-scroll";
 import "./App.css";
 import About from "./components/layout/About";
+import CV from "./components/layout/CV";
+import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import Work from "./components/layout/Work";
 
@@ -31,7 +33,11 @@ function App() {
       <Element name="work">
         <Work theme={theme} />
       </Element>
-      <footer className="center footer"></footer>
+
+      <Element name="cv">
+        <CV theme={theme} />
+      </Element>
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import "./navbar.css";
 
 const Navbar = ({ theme, setTheme }) => {
   const [darkMode, setDarkMode] = React.useState(true);
+  const [navbar, setNavbar] = React.useState(false);
 
   const scrollToElement = (element) => {
     scroller.scrollTo(element, {
@@ -22,9 +23,22 @@ const Navbar = ({ theme, setTheme }) => {
       setTheme("light");
     }
   };
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
 
   return (
-    <div className={`navbar-container`}>
+    <div
+      className={
+        navbar ? `navbar-container active` : `navbar-container`
+      }
+    >
       <span className="logo">
         <span>Shinyuy </span>
         <span>Marcel</span>
@@ -35,7 +49,7 @@ const Navbar = ({ theme, setTheme }) => {
           Work Experience
         </li>
         <li>Projects</li>
-        <li>CV</li>
+        <li onClick={() => scrollToElement("cv")}>CV</li>
         <li>
           {theme === "dark" ? (
             <WbSunnyIcon onClick={toggleTheme} />

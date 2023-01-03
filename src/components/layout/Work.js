@@ -21,30 +21,42 @@ const Work = ({ theme }) => {
             TypeScript on the front end, with backend build with
             Python, Django, and Postgres.
           </p>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            NextJS
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            TypeScript
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            Python
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            Django
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            PostgreSQL
+          <span className="tags">
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              NextJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              TypeScript
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              Python
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              Django
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              PostgreSQL
+            </span>
           </span>
           <img src={financica} alt="" />
         </div>
@@ -65,25 +77,35 @@ const Work = ({ theme }) => {
             NextJS, the backend with NodeJS, ExpressJS, and PostgreSQL
             database, and Deployed on Heroku
           </p>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            NextJS
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            NodeJS
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            ExpressJS
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            PostgreSQL
+          <span className="tags">
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              NextJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              NodeJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              ExpressJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              PostgreSQL
+            </span>
           </span>
           <img src={wokedspaces} alt="" />
         </div>
@@ -99,21 +121,30 @@ const Work = ({ theme }) => {
             Worked on the frontend of Interview Look, a human resource
             platform, creating React with TypeScript and MobX,
           </p>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            ReactJS
+          <span className="tags">
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              ReactJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              TypeScript
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              MobX
+            </span>
           </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            TypeScript
-          </span>
-          <span
-            className={theme === "light" ? "light-span" : "dark-span"}
-          >
-            MobX
-          </span>
+
           <img src={interviewlook} alt="" />
         </div>
       </div>

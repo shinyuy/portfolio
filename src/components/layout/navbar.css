@@ -2,11 +2,19 @@
   display: flex;
   justify-content: space-between;
   padding: 50px 100px;
-
+  height: 80px;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 95%; /* Full width */
+}
+
+.navbar-container.active {
+  background-color: #21212b;
+  color: white;
+  height: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-container ul {

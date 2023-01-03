@@ -9,7 +9,7 @@
 .work-container-content {
   display: flex;
   align-items: flex-start;
-  width: 30vw;
+  width: 50vw;
   text-align: left;
   justify-content: space-between;
 }
@@ -28,12 +28,17 @@
   font-size: 22px;
 }
 
+.tags {
+  width: 80%;
+}
+
 .year {
-  width: 25%;
+  width: 30%;
 }
 
 .details {
-  width: 70%;
+  width: 60%;
+  margin-bottom: 50px;
 }
 
 .dark-span {
@@ -60,4 +65,31 @@
   width: 45vw;
   margin-top: 50px;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .work-container {
+    padding: 10px;
+  }
+
+  .work-container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: flex-start;
+  }
+
+  .year {
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .work-container-content img {
+    width: 95vw;
+  }
 }
