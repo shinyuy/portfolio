@@ -4,9 +4,9 @@
   padding: 50px 100px;
   height: 80px;
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 95%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 95%;
 }
 
 .navbar-container.active {
