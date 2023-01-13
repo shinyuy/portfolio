@@ -48,7 +48,7 @@ const Navbar = ({ theme, setTheme }) => {
         <li onClick={() => scrollToElement("work")}>
           Work Experience
         </li>
-        <li>Projects</li>
+        <li onClick={() => scrollToElement("projects")}>Projects</li>
         <li onClick={() => scrollToElement("cv")}>CV</li>
         <li>
           {theme === "dark" ? (

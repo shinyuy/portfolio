@@ -5,6 +5,7 @@ import About from "./components/layout/About";
 import CV from "./components/layout/CV";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
+import Projects from "./components/layout/Projects";
 import Work from "./components/layout/Work";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     localStorage.setItem("theme", theme);
     document.body.className = theme;
   }, [theme]);
-  console.log(theme);
+
   return (
     <div
       className={`App ${theme}`}
@@ -32,6 +33,10 @@ function App() {
 
       <Element name="work">
         <Work theme={theme} />
+      </Element>
+
+      <Element name="projects">
+        <Projects theme={theme} />
       </Element>
 
       <Element name="cv">
