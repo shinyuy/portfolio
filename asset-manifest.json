@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.323846ef.css",
-    "main.js": "/portfolio/static/js/main.611d619c.js",
+    "main.css": "/portfolio/static/css/main.413b5dae.css",
+    "main.js": "/portfolio/static/js/main.ea268e7f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/hotelsios.png": "/portfolio/static/media/hotelsios.a3e23a360e7ede139ea6.png",
     "static/media/fa-solid-900.svg": "/portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -29,12 +29,12 @@
     "static/media/fa-regular-400.woff": "/portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/portfolio/index.html",
-    "main.323846ef.css.map": "/portfolio/static/css/main.323846ef.css.map",
-    "main.611d619c.js.map": "/portfolio/static/js/main.611d619c.js.map",
+    "main.413b5dae.css.map": "/portfolio/static/css/main.413b5dae.css.map",
+    "main.ea268e7f.js.map": "/portfolio/static/js/main.ea268e7f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.323846ef.css",
-    "static/js/main.611d619c.js"
+    "static/css/main.413b5dae.css",
+    "static/js/main.ea268e7f.js"
   ]
 }
