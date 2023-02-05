@@ -24,3 +24,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 30px;
+  }
+  .about-content p {
+    font-size: 18px;
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
