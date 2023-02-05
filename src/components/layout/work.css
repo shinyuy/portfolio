@@ -87,6 +87,18 @@
     justify-content: flex-start;
   }
 
+  .work-container-content h2 {
+    font-size: 22px;
+  }
+
+  .work-container-content a {
+    font-size: 22px;
+  }
+
+  .work-container-content p {
+    font-size: 18px;
+  }
+
   .year {
     width: 100%;
   }
@@ -98,5 +110,15 @@
 
   .work-container-content img {
     width: 100%;
+  }
+
+  .dark-span {
+    padding: 7px 15px;
+    margin: 5px;
+  }
+
+  .light-span {
+    padding: 7px 15px;
+    margin: 5px;
   }
 }

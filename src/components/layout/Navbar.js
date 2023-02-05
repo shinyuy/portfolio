@@ -8,6 +8,7 @@ import "./navbar.css";
 const Navbar = ({ theme, setTheme }) => {
   const [darkMode, setDarkMode] = React.useState(true);
   const [navbar, setNavbar] = React.useState(false);
+  const [showMobileLinks, setShowMobileLinks] = React.useState(false);
 
   const scrollToElement = (element) => {
     scroller.scrollTo(element, {
@@ -70,11 +71,58 @@ const Navbar = ({ theme, setTheme }) => {
             : `mobile-navbar-container`
         }
       >
-        <span className="logo">
-          <span>Shinyuy </span>
-          <span>Marcel</span>
-        </span>
-        <MenuIcon />
+        <div>
+          <span className="logo">
+            <span>Shinyuy </span>
+            <span>Marcel</span>
+          </span>
+          <MenuIcon
+            onClick={() => setShowMobileLinks(!showMobileLinks)}
+          />
+        </div>
+        {showMobileLinks && (
+          <ul>
+            <li
+              onClick={() => {
+                scrollToElement("about");
+                setShowMobileLinks(false);
+              }}
+            >
+              About
+            </li>
+            <li
+              onClick={() => {
+                scrollToElement("work");
+                setShowMobileLinks(false);
+              }}
+            >
+              Work Experience
+            </li>
+            <li
+              onClick={() => {
+                scrollToElement("projects");
+                setShowMobileLinks(false);
+              }}
+            >
+              Projects
+            </li>
+            <li
+              onClick={() => {
+                scrollToElement("cv");
+                setShowMobileLinks(false);
+              }}
+            >
+              CV
+            </li>
+            <li>
+              {theme === "dark" ? (
+                <WbSunnyIcon onClick={toggleTheme} />
+              ) : (
+                <DarkModeIcon onClick={toggleTheme} />
+              )}
+            </li>
+          </ul>
+        )}
       </div>
     </>
   );

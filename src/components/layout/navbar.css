@@ -45,9 +45,42 @@
     display: none;
   }
 
-  .mobile-navbar-container,
+  .mobile-navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 50px;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+
   .mobile-navbar-container.active {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #21212b;
+    color: white;
+    height: 0px;
+  }
+  .mobile-navbar-container div,
+  .mobile-navbar-container.active div {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .mobile-navbar-container li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 50px;
+    cursor: pointer;
   }
 }
