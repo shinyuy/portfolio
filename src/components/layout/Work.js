@@ -119,7 +119,7 @@ const Work = ({ theme }) => {
           <a href="https://www.interviewlook.com/">Interview Look</a>
           <p>
             Worked on the frontend of Interview Look, a human resource
-            platform, creating React with TypeScript and MobX,
+            platform, created with React, TypeScript and MobX,
           </p>
           <span className="tags">
             <span
