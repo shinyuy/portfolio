@@ -8,3 +8,10 @@
 .cv-container img {
   height: 100vh;
 }
+
+@media (max-width: 600px) {
+  .cv-container img {
+    height: auto;
+    width: 95vw;
+  }
+}

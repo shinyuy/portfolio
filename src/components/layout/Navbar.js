@@ -1,4 +1,5 @@
 import DarkModeIcon from "@mui/icons-material/DarkMode";
+import MenuIcon from "@mui/icons-material/Menu";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import React from "react";
 import { scroller } from "react-scroll";
@@ -34,31 +35,48 @@ const Navbar = ({ theme, setTheme }) => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <div
-      className={
-        navbar ? `navbar-container active` : `navbar-container`
-      }
-    >
-      <span className="logo">
-        <span>Shinyuy </span>
-        <span>Marcel</span>
-      </span>
-      <ul>
-        <li onClick={() => scrollToElement("about")}>About</li>
-        <li onClick={() => scrollToElement("work")}>
-          Work Experience
-        </li>
-        <li onClick={() => scrollToElement("projects")}>Projects</li>
-        <li onClick={() => scrollToElement("cv")}>CV</li>
-        <li>
-          {theme === "dark" ? (
-            <WbSunnyIcon onClick={toggleTheme} />
-          ) : (
-            <DarkModeIcon onClick={toggleTheme} />
-          )}
-        </li>
-      </ul>
-    </div>
+    <>
+      <div
+        className={
+          navbar ? `navbar-container active` : `navbar-container`
+        }
+      >
+        <span className="logo">
+          <span>Shinyuy </span>
+          <span>Marcel</span>
+        </span>
+        <ul>
+          <li onClick={() => scrollToElement("about")}>About</li>
+          <li onClick={() => scrollToElement("work")}>
+            Work Experience
+          </li>
+          <li onClick={() => scrollToElement("projects")}>
+            Projects
+          </li>
+          <li onClick={() => scrollToElement("cv")}>CV</li>
+          <li>
+            {theme === "dark" ? (
+              <WbSunnyIcon onClick={toggleTheme} />
+            ) : (
+              <DarkModeIcon onClick={toggleTheme} />
+            )}
+          </li>
+        </ul>
+      </div>
+      <div
+        className={
+          navbar
+            ? `mobile-navbar-container active`
+            : `mobile-navbar-container`
+        }
+      >
+        <span className="logo">
+          <span>Shinyuy </span>
+          <span>Marcel</span>
+        </span>
+        <MenuIcon />
+      </div>
+    </>
   );
 };
 export default Navbar;

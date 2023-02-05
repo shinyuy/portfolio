@@ -30,6 +30,8 @@
 
 .tags {
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .year {
@@ -43,7 +45,7 @@
 
 .dark-span {
   padding: 10px 20px;
-  margin: 0 15px 0 0;
+  margin: 10px;
   background-color: #fff;
   border-radius: 10px;
   font-weight: bold;
@@ -53,7 +55,7 @@
 
 .light-span {
   padding: 10px 20px;
-  margin: 0 15px 0 0;
+  margin: 10px;
   color: #fff;
   border-radius: 10px;
   font-weight: bold;
@@ -70,6 +72,11 @@
 @media (max-width: 600px) {
   .work-container {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .work-container-content {
@@ -90,6 +97,6 @@
   }
 
   .work-container-content img {
-    width: 95vw;
+    width: 100%;
   }
 }

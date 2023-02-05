@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.mobile-navbar-container,
+.mobile-navbar-container.active {
+  display: none;
+}
+
 .navbar-container ul {
   display: flex;
 }
@@ -32,4 +37,17 @@
   font-weight: bold;
   padding: 0 50px;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navbar-container,
+  .navbar-container.active {
+    display: none;
+  }
+
+  .mobile-navbar-container,
+  .mobile-navbar-container.active {
+    display: flex;
+    justify-content: space-between;
+  }
 }
