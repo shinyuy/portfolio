@@ -46,7 +46,7 @@
   }
 
   .mobile-navbar-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@
   }
 
   .mobile-navbar-container.active {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 95%;
   }
 
   .logo {
