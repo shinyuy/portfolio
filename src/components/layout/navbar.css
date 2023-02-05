@@ -46,22 +46,25 @@
   }
 
   .mobile-navbar-container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px 50px;
+    padding: 20px 10px;
     overflow: hidden;
     position: fixed;
     top: 0;
   }
 
   .mobile-navbar-container.active {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #21212b;
     color: white;
-    height: 0px;
+    padding: 20px 10px;
+    height: auto;
   }
   .mobile-navbar-container div,
   .mobile-navbar-container.active div {
