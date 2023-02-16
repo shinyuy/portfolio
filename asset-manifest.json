@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7accc96c.css",
-    "main.js": "/static/js/main.bb9c6395.js",
+    "main.js": "/static/js/main.0c9cf159.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/hotelsios.png": "/static/media/hotelsios.a3e23a360e7ede139ea6.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -14,11 +14,11 @@
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4689f52cc96215721344.svg",
     "static/media/interviewlook.jpg": "/static/media/interviewlook.5fe46a5e1d24920150cc.jpg",
     "static/media/CV.jpg": "/static/media/CV.e98408cb9122590f7312.jpg",
-    "static/media/financica.jpg": "/static/media/financica.39301621886407e0169e.jpg",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
     "static/media/hotels.jpg": "/static/media/hotels.b6ae698ae1020a2e01f5.jpg",
     "static/media/restaurants.jpeg": "/static/media/restaurants.6b1cc2dd0847ad22c022.jpeg",
+    "static/media/financica.jpg": "/static/media/financica.f9655f5ae5c85d050fd4.jpg",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/hotel.jpeg": "/static/media/hotel.e7edf5ee4f48755b1a53.jpeg",
@@ -30,11 +30,11 @@
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/index.html",
     "main.7accc96c.css.map": "/static/css/main.7accc96c.css.map",
-    "main.bb9c6395.js.map": "/static/js/main.bb9c6395.js.map",
+    "main.0c9cf159.js.map": "/static/js/main.0c9cf159.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7accc96c.css",
-    "static/js/main.bb9c6395.js"
+    "static/js/main.0c9cf159.js"
   ]
 }
