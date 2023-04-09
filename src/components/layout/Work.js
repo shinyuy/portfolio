@@ -15,7 +15,7 @@ const Work = ({ theme }) => {
         </div>
         <div className="details">
           <h2>Full Stack Web Developer</h2>
-          <a href="https://financica.dev/">Boookit</a>
+          <a href="https://boookit.io/">Boookit</a>
           <p>
             Built a platform to make reservations at hotels,
             restaurants and clubs easier
