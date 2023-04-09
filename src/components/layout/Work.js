@@ -1,3 +1,4 @@
+import boookit from "../../images/boookit.png";
 import financica from "../../images/financica.jpg";
 import interviewlook from "../../images/interviewlook.jpg";
 import wokedspaces from "../../images/wokedspaces.jpg";
@@ -8,6 +9,57 @@ const Work = ({ theme }) => {
   return (
     <div className="work-container">
       <h1>Work Experience</h1>
+      <div className="work-container-content">
+        <div className="year">
+          <h2>2022 - 2023</h2>
+        </div>
+        <div className="details">
+          <h2>Full Stack Web Developer</h2>
+          <a href="https://financica.dev/">Boookit</a>
+          <p>
+            Built a platform to make reservations at hotels,
+            restaurants and clubs easier
+          </p>
+          <span className="tags">
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              NextJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              React Native
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              NodeJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              ExpressJS
+            </span>
+            <span
+              className={
+                theme === "light" ? "light-span" : "dark-span"
+              }
+            >
+              PostgreSQL
+            </span>
+          </span>
+          <img src={boookit} alt="" />
+        </div>
+      </div>
       <div className="work-container-content">
         <div className="year">
           <h2>2021 - 2022</h2>
@@ -71,11 +123,9 @@ const Work = ({ theme }) => {
           <p>
             Woked Spaces a platform where space owners(host) can list
             their space for workers(guests) looking for workspaces to
-            book and make payments through Stripe(which transfers part
-            to the space owner and the rest stays on the platform).
-            Designed by myself using Figma, coded the frontend with
-            NextJS, the backend with NodeJS, ExpressJS, and PostgreSQL
-            database, and Deployed on Heroku
+            book and make payments Designed by myself using Figma,
+            coded the frontend with NextJS, the backend with NodeJS,
+            ExpressJS, and PostgreSQL database, and Deployed on Heroku
           </p>
           <span className="tags">
             <span

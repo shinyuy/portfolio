@@ -11,13 +11,13 @@ const Projects = () => {
     <div className="prodjects-container">
       <h1>My Projects</h1>
       <div className="project">
-        <h2>Flexy</h2>
+        <h2>Boookit</h2>
         <p>
           A mobile app that permits hotel, restaurants and club owners
           to manage their business by given them the possibility to
           add and receive bookings for their rooms, meals and spaces
           respectively from clients, who themselves have the
-          possibility of booking the services online through Flexy.
+          possibility of booking the services online through Boookit.
         </p>
         <div className="images-container">
           <img src={snackios} />
