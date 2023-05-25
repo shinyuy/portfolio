@@ -66,7 +66,7 @@ const Work = ({ theme }) => {
         </div>
         <div className="details">
           <h2>Frontend Web Developer</h2>
-          <a href="https://financica.dev/">Financica</a>
+          <a href="https://financica.app">Financica</a>
           <p>
             Built the front end part of Financica, a
             bookkeeping(accounting) application using NextJS and
@@ -119,11 +119,11 @@ const Work = ({ theme }) => {
         </div>
         <div className="details">
           <h2>Full Stack Web Developer</h2>
-          <a href="https://www.wokedspaces.com">Woked Spaces</a>
+          <a href="https://www.wokedspaces.com">Wava Space</a>
           <p>
-            Woked Spaces a platform where space owners(host) can list
+            Wava Space is a platform where space owners(host) can list
             their space for workers(guests) looking for workspaces to
-            book and make payments Designed by myself using Figma,
+            reserve and work from. Designed by myself using Figma,
             coded the frontend with NextJS, the backend with NodeJS,
             ExpressJS, and PostgreSQL database, and Deployed on Heroku
           </p>

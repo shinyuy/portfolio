@@ -1,7 +1,6 @@
-import hotel from "../../images/hotel.jpeg";
+import app3 from "../../images/app3.png";
 import hotelios from "../../images/hotelios.png";
 import hotels from "../../images/hotels.jpg";
-import hotelsios from "../../images/hotelsios.png";
 import restaurants from "../../images/restaurants.jpeg";
 import snackios from "../../images/snackios.png";
 import "./projects.css";
@@ -20,11 +19,10 @@ const Projects = () => {
           possibility of booking the services online through Boookit.
         </p>
         <div className="images-container">
+          <img src={app3} />
           <img src={snackios} />
           <img src={restaurants} />
           <img src={hotels} />
-          <img src={hotel} />
-          <img src={hotelsios} />
           <img src={hotelios} />
         </div>
       </div>
