@@ -119,7 +119,7 @@ const Work = ({ theme }) => {
         </div>
         <div className="details">
           <h2>Full Stack Web Developer</h2>
-          <a href="https://www.wokedspaces.com">Wava Space</a>
+          <a href="https://www.wavaspace.com">Wava Space</a>
           <p>
             Wava Space is a platform where space owners(host) can list
             their space for workers(guests) looking for workspaces to
